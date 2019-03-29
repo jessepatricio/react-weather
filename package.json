@@ -22,8 +22,8 @@
     "jsdom": "^12.2.0",
     "mocha": "^5.2.0",
     "react-addons-test-utils": "^0.14.7",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^3.1.9"
+    "webpack": "^4.29.6",
+    "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
     "axios": "^0.16.2",
