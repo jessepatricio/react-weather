@@ -27,7 +27,7 @@
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "babel-preset-stage-1": "^6.1.18",
     "i": "^0.3.6",
     "lodash": "^4.17.11",
