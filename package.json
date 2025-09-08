@@ -18,8 +18,7 @@
     "redux-promise": "^0.6.0",
     "axios": "^1.6.0",
     "lodash": "^4.17.21",
-    "react-sparklines": "^1.7.0",
-    "@googlemaps/js-api-loader": "^1.16.2"
+    "react-sparklines": "^1.7.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
