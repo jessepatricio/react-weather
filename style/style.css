@@ -1,22 +1,47 @@
 body {
-    background-color: #c6cdd3;
-    
+  background-color: #c6cdd3;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 td, th {
-    vertical-align: middle !important;
-    text-align: center !important;
+  vertical-align: middle !important;
+  text-align: center !important;
 }
 
 .input-group {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
 
 svg {
-    height: 150px;
+  height: 150px;
 }
 
 td:first-of-type, td:first-of-type > div {
-    height: 200px;
-    width: 250px;
+  height: 200px;
+  width: 250px;
+}
+
+.table {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.form-control:focus {
+  border-color: #6c757d;
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25);
 }
