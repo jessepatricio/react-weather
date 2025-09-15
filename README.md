@@ -2,6 +2,10 @@
 
 A modern React weather application built with Vite, featuring real-time weather data visualization and interactive maps.
 
+## Demo
+
+[![Watch the video](https://img.youtube.com/vi/sLqvHZUPFtI/maxresdefault.jpg)](https://www.youtube.com/watch?v=sLqvHZUPFtI)
+
 ## Features
 
 - 🌤️ 5-day weather forecast for US cities
