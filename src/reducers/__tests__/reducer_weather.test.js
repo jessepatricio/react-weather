@@ -16,7 +16,7 @@ describe('Weather Reducer', () => {
 
     const action = {
       type: FETCH_WEATHER,
-      payload: { data: mockWeatherData }
+      payload: mockWeatherData
     }
 
     const newState = weatherReducer([], action)
@@ -37,7 +37,7 @@ describe('Weather Reducer', () => {
 
     const action = {
       type: FETCH_WEATHER,
-      payload: { data: newWeatherData }
+      payload: newWeatherData
     }
 
     const newState = weatherReducer(initialState, action)
@@ -75,7 +75,7 @@ describe('Weather Reducer', () => {
     cities.forEach(cityData => {
       const action = {
         type: FETCH_WEATHER,
-        payload: { data: cityData }
+        payload: cityData
       }
       state = weatherReducer(state, action)
     })
@@ -97,7 +97,7 @@ describe('Weather Reducer', () => {
 
     const action = {
       type: FETCH_WEATHER,
-      payload: { data: extremeWeatherData }
+      payload: extremeWeatherData
     }
 
     const newState = weatherReducer([], action)
@@ -118,7 +118,7 @@ describe('Weather Reducer', () => {
 
     const action = {
       type: FETCH_WEATHER,
-      payload: { data: coastalWeatherData }
+      payload: coastalWeatherData
     }
 
     const newState = weatherReducer([], action)
@@ -139,7 +139,7 @@ describe('Weather Reducer', () => {
 
     const action = {
       type: FETCH_WEATHER,
-      payload: { data: mountainWeatherData }
+      payload: mountainWeatherData
     }
 
     const newState = weatherReducer([], action)
@@ -160,7 +160,7 @@ describe('Weather Reducer', () => {
       }
       const action = {
         type: FETCH_WEATHER,
-        payload: { data: cityData }
+        payload: cityData
       }
       state = weatherReducer(state, action)
     })
