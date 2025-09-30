@@ -23,7 +23,7 @@ A modern React weather application built with Vite, featuring real-time weather 
 - **React 18** - Modern React with hooks
 - **Vite** - Fast build tool and dev server
 - **Redux** - State management
-- **Axios** - HTTP client
+- **Fetch API** - Native HTTP client
 - **React Sparklines** - Data visualization
 - **Google Maps API** - Interactive maps
 - **Bootstrap 5** - UI framework
